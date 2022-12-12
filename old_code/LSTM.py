@@ -69,7 +69,7 @@ def error_and_plot(model,train,n_steps,n_features, split_size):
 #Loading data set
 n_steps = 30
 n_features = 1
-series = read_csv('temp.csv', header=0, index_col=0)
+series = read_csv('old_code/temp.csv', header=0, index_col=0)
 X_train, y_train, train, test = creates_series(series, n_steps , n_features,3000)
 
 #%%
